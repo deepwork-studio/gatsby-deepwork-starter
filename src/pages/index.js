@@ -1,4 +1,5 @@
 import React from "react";
+import { Heading, Text } from "rebass";
 
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
@@ -6,9 +7,10 @@ import SEO from "../components/SEO";
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi peeps</h1>
-    <p>Welcome to your new Deep Work Studio site.</p>
-    <p>Let's get building!</p>
+    
+    <Heading as="h1">Hi peeps</Heading>
+    <Text as="p">Welcome to your new Deep Work Studio site.</Text>
+    <Text as="p">Let's get building!</Text>
   </Layout>
 );
 

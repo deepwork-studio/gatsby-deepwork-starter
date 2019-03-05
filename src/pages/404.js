@@ -1,4 +1,5 @@
 import React from "react";
+import { Heading, Text } from "rebass";
 
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
@@ -6,8 +7,11 @@ import SEO from "../components/SEO";
 const NotFoundPage = () => (
   <Layout>
     <SEO title="Something went wrong" />
-    <h1>This page doesn’t exist</h1>
-    <p>You might have mistyped the address, or the page might have moved.</p>
+
+    <Heading as="h1">This page doesn’t exist</Heading>
+    <Text as="p">
+      You might have mistyped the address, or the page might have moved.
+    </Text>
   </Layout>
 );
 
