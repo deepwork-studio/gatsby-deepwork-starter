@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
-  "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "name": "gatsby-deepwork-default",
+  "private": false,
+  "description": "A simple starter to get up and developing quickly with Gatsby & Deep Work Studio",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jeff Reiner <jeff@deepwork.studio>",
   "dependencies": {
     "gatsby": "^2.1.22",
     "gatsby-image": "^2.0.31",
@@ -21,10 +21,7 @@
   "devDependencies": {
     "prettier": "^1.16.4"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -35,9 +32,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "git+https://github.com/mirshko/gatsby-deepwork-starter.git"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+    "url": "https://github.com/mirshko/gatsby-deepwork-starter/issues"
+  },
+  "homepage": "https://github.com/mirshko/gatsby-deepwork-starter#readme"
 }
