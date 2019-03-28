@@ -15,7 +15,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     ```sh
     # create a new Gatsby site using the default starter
-    gatsby new my-deepwork-starter https://github.com/mirshko/gatsby-deepwork-starter
+    gatsby new my-deepwork-starter https://github.com/deepwork-studio/gatsby-deepwork-starter
     ```
 
 1.  **Start developing.**
